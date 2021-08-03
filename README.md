@@ -34,7 +34,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/tbegush/PROJECT2">
-    <img src="./PROJECT2-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./assets/images/CK-logo.png" alt="Logo" width="363" height=auto>
   </a>
 
   <h3 align="center">PROJECT2</h3>
