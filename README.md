@@ -34,10 +34,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/tbegush/PROJECT2">
-    <img src="./PROJECT2-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./captionking.png" alt="Logo" width="363" height=auto>
   </a>
 
-  <h3 align="center">PROJECT2</h3>
+  <h3 align="center">Caption King</h3>
 
   <p align="center">
     Backend for an e-commerce store.
