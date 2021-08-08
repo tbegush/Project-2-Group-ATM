@@ -1,23 +1,22 @@
 :root {
     --primary-color: rgb(94, 12, 187);
-    --secondary-color: rgb(127, 126, 128);
+    --secondary-color: rgb(73, 73, 73);
     --tertiary-color: rgb(228, 191, 25);
     --text-color: rgb(17, 17, 17);
 }
 
 /* Overides default browser styles */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    color: inherit;
 }
 
 body {
     color: var(--text-color);
     font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.7;
+    line-height: 1.5;
     background-color: var(--secondary-color);
+    margin: 0;
 }
 
 header {
@@ -26,15 +25,11 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    background-image: url('');
     background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    z-index: 9999;
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
+    background-image: url('../images/purple-bg.png');
+    background-size:20rem;
 }
 
 /* Adds style to main heading */
@@ -42,6 +37,11 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    text-shadow: 0 0 10px var(--secondary-color);
-    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header h1 a {
+    padding-left: 20px;
 }
