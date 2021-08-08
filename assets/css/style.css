@@ -77,3 +77,44 @@ header nav ul li a:hover {
     text-shadow: none;
     font-weight: bold;
 }
+
+figure {
+    background-image: url('../images/purple-bg.png');
+    background-size: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-attachment: fixed;
+    margin: 0;
+    color:var(--tertiary-color);
+    text-shadow: 0 0 10px var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+}
+
+figure section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 10px var(--primary-color);
+}
+
+figure section strong {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 15px 0 5px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.400);
+    border-radius: 15px;
+}
+
+figure section p {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 15px 0 20px;
+    width: 75%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.400);
+    border-radius: 15px;
+}
