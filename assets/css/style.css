@@ -245,3 +245,20 @@ main figure a {
     border-radius: 15px;
     text-decoration: none;
 }
+
+footer {
+    background-image: url('../images/purple-bg.png');
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: 20rem;
+}
+
+footer p {
+    color: var(--tertiary-color);
+    padding: 0 20px;
+    margin: 5px;
+    font-weight: bold;
+    text-shadow: 0 0 10px var(--text-color);
+}
