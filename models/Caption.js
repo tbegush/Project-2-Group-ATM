@@ -11,12 +11,9 @@ Caption.init(
       primaryKey: true,
       autoIncrement: true
     },
-    caption_text: {
+    Caption_text: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [1]
-      }
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -37,7 +34,7 @@ Caption.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'caption'
+    modelName: 'Caption'
   }
 );
 
