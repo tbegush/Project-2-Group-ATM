@@ -200,3 +200,48 @@ main figure figcaption {
     overflow-y: auto;
     text-align: justify;
 }
+
+main figure figcaption p {
+    padding:5px 40px;
+    margin: 5px;
+    line-height:1.5rem;
+}
+
+main figure label {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(251, 250, 252, 0.438);
+    border-radius: 15px;
+    margin: 0 25rem;
+}
+
+main figure label h3 {
+    width: 100%;
+    justify-content: center;
+    display: inherit;
+    margin: 5px;
+    color: var(--text-color)
+}
+
+main figure label textarea {
+    background-color: inherit;
+    border: none;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 75px;
+    resize: none;
+}
+
+main figure a {
+    width: 15%;
+    display: inherit;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--tertiary-color);
+    border-radius: 15px;
+    text-decoration: none;
+}
