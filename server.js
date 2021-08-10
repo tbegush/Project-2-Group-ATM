@@ -11,21 +11,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view-engine', 'handlebars');
 
 
-
-app.get("./", (req, res) => {
-  res.sendFile(__dirname + "./index.html");
-});
-
-app.get('./login-register', (req, res) => {
-  res.render('./login-register.ejs')
-});
-
-app.post('./login-register', (req, res) => {
-
-});
-
-
-
 const sess = {
   secret: 'Super secret secret',
   cookie: {},
