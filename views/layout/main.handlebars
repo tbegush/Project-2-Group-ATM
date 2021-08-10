@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/CK-logo.png"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Caption King</title>
+</head>stash them before you merge.
+
+<body>
+    <!--Nav-->
+    <header class="header">
+        <h1 class="title">
+            <img src="assets/images/CK-logo.png" alt="Caption King Logo" width="60" height="62">
+            <a href="#top">Caption King</a>
+        </h1>
+        <nav class="navigation">
+            {{#if loggedIn}}
+            <ul>
+                <li class="hover">
+                    <a href="/homepage">Homepage</a>
+                </li>
+                <li class="hover">
+                    <a id="logout" href="">Logout</a>
+                </li>
+            </ul>
+            {{else}}
+            <ul>
+                <li class="hover">
+                    <a href="/login-register">Login/Register</a>
+                </li>
+            </ul>
+            {{/if}}
+        </nav>
+    </header>
+
+    <main>
+        {{{ body }}}
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2021 ATM. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    {{#if loggedIn}}
+    <script src="/public/javascript/logout.js"></script>
+    {{/if}}
+    
+</body>
+
+</html>
