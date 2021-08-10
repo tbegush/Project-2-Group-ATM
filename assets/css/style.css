@@ -157,3 +157,46 @@ article button p:hover {
     font-weight: bold;
     transition: 0.25s ;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 5px solid;
+}
+
+main figure {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+main figure strong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px var(--text-color);
+}
+
+main figure img {
+    border-radius: 100px;
+}
+
+main figure figcaption {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    width: 1000px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
