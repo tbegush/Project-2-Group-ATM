@@ -13,8 +13,6 @@ https://source.unsplash.com/random/?funny
 *** tbegush, PROJECT2, @tbegush, tbegush@gmail.com, PROJECT2, A search for github repositories!
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.

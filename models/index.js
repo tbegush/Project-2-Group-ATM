@@ -51,18 +51,18 @@ Caption.belongsTo(User, {
   onDelete: 'SET NULL'
 });
 
-Caption.belongsTo(Post, {
-  foreignKey: 'post_id',
-  onDelete: 'SET NULL'
-});
+// Caption.belongsTo(Post, {
+//   foreignKey: 'post_id',
+//   onDelete: 'SET NULL'
+// });
 
 User.hasMany(Caption, {
   foreignKey: 'user_id',
   onDelete: 'SET NULL'
 });
 
-Post.hasMany(Caption, {
-  foreignKey: 'post_id'
-});
+// Post.hasMany(Caption, {
+//   foreignKey: 'post_id'
+// });
 
 module.exports = { User, Post, Vote, Caption };

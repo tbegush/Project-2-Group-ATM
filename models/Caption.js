@@ -11,7 +11,7 @@ Caption.init(
       primaryKey: true,
       autoIncrement: true
     },
-    Caption_text: {
+    caption_text: {
       type: DataTypes.STRING,
       allowNull: true,
     },
@@ -22,13 +22,13 @@ Caption.init(
         key: 'id'
       }
     },
-    post_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'post',
-        key: 'id'
-      }
-    }
+    // post_id: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: 'post',
+    //     key: 'id'
+    //   }
+    // }
   },
   {
     sequelize,

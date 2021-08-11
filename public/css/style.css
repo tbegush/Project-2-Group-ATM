@@ -235,7 +235,7 @@ main figure label textarea {
     resize: none;
 }
 
-main figure a {
+main figure a, main figure form button {
     width: 15%;
     display: inherit;
     justify-content: center;
