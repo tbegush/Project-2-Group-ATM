@@ -33,7 +33,7 @@ router.delete('/:id', withAuth, (req, res) => {
   })
     .then(dbCaptionData => {
       if (!dbCaptionData) {
-        res.status(404).json({ message: 'No Caption found with this id!' });
+        res.status(404).json({ message: 'No caption found with this id!' });
         return;
       }
       res.json(dbCaptionData);
