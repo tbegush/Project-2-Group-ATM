@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="./assets/images/CK-logo.png"/>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="shortcut icon" type="image/png" href="./images/CK-logo.png"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Caption King</title>
 </head>
 
@@ -13,7 +13,7 @@
     <!--Nav-->
     <header class="header">
         <h1 class="title">
-            <img src="assets/images/CK-logo.png" alt="Caption King Logo" width="60" height="62">
+            <img src="/images/CK-logo.png" alt="Caption King Logo" width="60" height="62">
             <a href="#top">Caption King</a>
         </h1>
         <nav class="navigation">
@@ -29,7 +29,7 @@
             {{else}}
             <ul>
                 <li class="hover">
-                    <a href="/login-register">Login/Register</a>
+                    <a href="/login">Login/Register</a>
                 </li>
             </ul>
             {{/if}}
@@ -47,7 +47,7 @@
     </footer>
 
     {{#if loggedIn}}
-    <script src="/public/javascript/logout.js"></script>
+    <script src="/javascript/logout.js"></script>
     {{/if}}
     
 </body>
