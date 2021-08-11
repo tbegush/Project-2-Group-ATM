@@ -26,7 +26,7 @@ app.use(session(sess));
 const helpers = require('./utils/helpers');
 const { Server } = require('http');
 
-app.use(require('./controllers/'));
+app.use(require('./controllers'));
 
 app.listen(3001, () => {
   console.log('on port 3001');
