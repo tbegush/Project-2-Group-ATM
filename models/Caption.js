@@ -13,7 +13,7 @@ Caption.init(
     },
     Caption_text: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     user_id: {
       type: DataTypes.INTEGER,
