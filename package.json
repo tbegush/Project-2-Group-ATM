@@ -1,18 +1,19 @@
 {
-  "name": "Project-2-Group-ATM",
+  "name": "project-2-group-atm",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- *** Thanks for checking out the Best-README-Template. If you have a suggestion *** that would make this better, please fork the repo and create a pull request *** or simply open an issue with the tag \"enhancement\". *** Thanks again! Now go create something AMAZING! :D *** *** Forked from othneildrew/Best-README-Template *** *** To avoid retyping too much info. Do a search and replace for the following: *** github_username, repo_name, twitter_handle, email, project_title, project_description *** tbegush, PROJECT2, @tbegush, tbegush@gmail.com, PROJECT2, A search for github repositories! -->",
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js"
+    "seeds": "node seeds/index.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "connect-session-sequelize": "^6.1.1",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.0",
@@ -22,5 +23,13 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbegush/Project-2-Group-ATM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tbegush/Project-2-Group-ATM/issues"
+  },
+  "homepage": "https://github.com/tbegush/Project-2-Group-ATM#readme"
 }

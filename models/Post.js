@@ -16,17 +16,17 @@ class Post extends Model {
           'post_url',
           'title',
           'created_at',
-          [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
+          // [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
         ],
         include: [
-          {
-            model: models.Comment,
-            attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
-            include: {
-              model: models.User,
-              attributes: ['username']
-            }
-          }
+          // {
+          //   model: models.Caption,
+          //   attributes: ['id', 'caption_text', 'post_id', 'user_id', 'created_at'],
+          //   include: {
+          //     model: models.User,
+          //     attributes: ['username']
+          //   }
+          // }
         ]
       });
     });

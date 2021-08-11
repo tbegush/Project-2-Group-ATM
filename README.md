@@ -1,3 +1,5 @@
+https://source.unsplash.com/random/?funny
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -10,8 +12,6 @@
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
 *** tbegush, PROJECT2, @tbegush, tbegush@gmail.com, PROJECT2, A search for github repositories!
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -34,13 +34,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/tbegush/PROJECT2">
-    <img src="./assets/images/CK-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./CK-logo.png" alt="Logo" width="363" height=auto>
   </a>
 
   <h3 align="center">Caption King</h3>
 
   <p align="center">
-    Backend for an e-commerce store.
+   A website for generating funny captions.
     <br />
     <a href="https://github.com/tbegush/PROJECT2"><strong>Explore the docs »</strong></a>
     <br />
@@ -86,7 +86,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Note Taker App](/PROJECT2-screenshot.png)
+![A website for captioning funny pictures!](/PROJECT2-screenshot.png)
 
 
 ### Built With

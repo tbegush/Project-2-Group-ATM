@@ -1,17 +1,17 @@
-async function commentFormHandler(event) {
+async function captionFormHandler(event) {
   event.preventDefault();
 
-  const comment_text = document.querySelector('textarea[name="comment-body"]').value.trim();
+  const caption_text = document.querySelector('textarea[name="caption-body"]').value.trim();
   const post_id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
   ];
 
-  if (comment_text) {
-    const response = await fetch('/api/comments', {
+  if (caption_text) {
+    const response = await fetch('/api/captions', {
       method: 'POST',
       body: JSON.stringify({
         post_id,
-        comment_text
+        caption_text
       }),
       headers: {
         'Content-Type': 'application/json'
@@ -26,4 +26,4 @@ async function commentFormHandler(event) {
   }
 }
 
-document.querySelector('.comment-form').addEventListener('submit', commentFormHandler);
+document.querySelector('.caption-form').addEventListener('submit', captionFormHandler);
