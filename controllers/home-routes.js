@@ -4,7 +4,7 @@ const { Post, User, Caption, Vote} = require('../models');
 
 // get all posts for homepage
 router.get('/', (req, res) => {
-  console.log('======================');
+  
   Post.findAll({
     attributes: [
       'id',
@@ -14,14 +14,14 @@ router.get('/', (req, res) => {
       [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
     ],
     include: [
-      {
-        model: Caption,
-        attributes: ['id', 'caption_text', 'post_id', 'user_id', 'created_at'],
-        include: {
-          model: User,
-          attributes: ['username']
-        }
-      },
+      // {
+      //   model: Caption,
+      //   attributes: ['id', 'caption_text', 'post_id', 'user_id', 'created_at'],
+      //   include: {
+      //     model: User,
+      //     attributes: ['username']
+      //   }
+      // },
       {
         model: User,
         attributes: ['username']
@@ -56,14 +56,14 @@ router.get('/post/:id', (req, res) => {
       [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
     ],
     include: [
-      {
-        model: Caption,
-        attributes: ['id', 'caption_text', 'post_id', 'user_id', 'created_at'],
-        include: {
-          model: User,
-          attributes: ['username']
-        }
-      },
+      // {
+      //   model: Caption,
+      //   attributes: ['id', 'caption_text', 'post_id', 'user_id', 'created_at'],
+      //   include: {
+      //     model: User,
+      //     attributes: ['username']
+      //   }
+      // },
       {
         model: User,
         attributes: ['username']

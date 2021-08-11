@@ -14,9 +14,9 @@ router.get('/', (req, res) => {
 router.post('/', withAuth, (req, res) => {
   // expects => {Caption_text: "This is the Caption", user_id: 1, post_id: 2}
   Caption.create({
-    Caption_text: req.body.Caption_text,
+    caption_text: req.body.caption_text,
     user_id: req.session.user_id,
-    post_id: req.body.post_id
+    // post_id: req.body.post_id
   })
     .then(dbCaptionData => res.json(dbCaptionData))
     .catch(err => {

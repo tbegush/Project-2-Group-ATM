@@ -264,6 +264,6 @@ const captiondata = [
   }
 ];
 
-const seedcaptions = () => caption.bulkCreate(captiondata);
+const seedcaptions = () => Caption.bulkCreate(captiondata);
 
 module.exports = seedcaptions;

@@ -127,37 +127,6 @@ article section p {
     border-radius: 15px;
 }
 
-article button {
-    background-image: url('../images/purple-bg.png');
-    background-size: 20rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-attachment: fixed;
-    width: 30%;
-    border: none;
-    position: sticky;
-    top: 2em;
-}
-
-article button p {
-    padding: 0;
-    margin: 7px;
-    font-size: 22px;
-    color:var(--tertiary-color);
-    text-shadow: 0 0 10px var(--text-color);
-    width: 40%;
-}
-
-article button p:hover {
-    background: rgba(0, 0, 0, 0.438);
-    color: var(--tertiary-color);
-    border-radius: 15px;
-    text-shadow: none;
-    font-weight: bold;
-    transition: 0.25s ;
-}
-
 main {
     display: flex;
     flex-wrap: wrap;
@@ -235,10 +204,17 @@ main figure label textarea {
     resize: none;
 }
 
-main figure a {
+main figure form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+main figure form a, main figure form button {
     width: 15%;
     display: inherit;
-    justify-content: center;
+    justify-content: inherit;
     padding: 10px;
     margin: 10px;
     background-color: var(--tertiary-color);
