@@ -127,11 +127,71 @@ article section p {
     border-radius: 15px;
 }
 
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-bottom: 5px solid;
+}
+
+main h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px var(--text-color);
+    width: 100%;
+}
+
+main form {
+    display: block;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color:rgba(251, 250, 252, 0.438);
+    border-radius: 15px;
+}
+
+main form div {
+    display: inherit;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+main form div label{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 15px;
+}
+
+main form div input {
+    background-color:rgba(251, 250, 252, 0.438);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--text-color);
+    margin: 0 5px;
+}
+
+main form div p {
+    display: inherit;
+    width: 25%;
+    margin: 0 0 0 15px;
+}
+
+main form button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    margin: 5px 150px;
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    font-weight: bold;
 }
 
 main figure {
@@ -171,7 +231,7 @@ main figure figcaption {
 }
 
 main figure figcaption p {
-    padding:5px 40px;
+    padding:5px 10px;
     margin: 5px;
     line-height:1.5rem;
 }
@@ -208,13 +268,13 @@ main figure form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    background-color: inherit;
 }
 
 main figure form a, main figure form button {
     width: 15%;
     display: inherit;
-    justify-content: inherit;
+    justify-content: center;
     padding: 10px;
     margin: 10px;
     background-color: var(--tertiary-color);
