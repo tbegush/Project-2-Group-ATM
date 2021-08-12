@@ -34,13 +34,13 @@ https://source.unsplash.com/random/?funny
 <br />
 <p align="center">
   <a href="https://github.com/tbegush/PROJECT2">
-    <img src="./assets/images/CK-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./CK-logo.png" alt="Logo" width="363" height=auto>
   </a>
 
   <h3 align="center">Caption King</h3>
 
   <p align="center">
-    Backend for an e-commerce store.
+   A website for generating funny captions.
     <br />
     <a href="https://github.com/tbegush/PROJECT2"><strong>Explore the docs »</strong></a>
     <br />
@@ -86,7 +86,7 @@ https://source.unsplash.com/random/?funny
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Note Taker App](/PROJECT2-screenshot.png)
+![A website for captioning funny pictures!](/PROJECT2-screenshot.png)
 
 
 ### Built With

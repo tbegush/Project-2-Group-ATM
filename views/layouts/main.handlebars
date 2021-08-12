@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="../../public/images/CK-logo.png"/>
     <link rel="stylesheet" href="../../public/css/style.css"/>
+
     <title>Caption King</title>
 </head>
 
@@ -13,6 +14,7 @@
     <!--Nav-->
     <header class="header">
         <h1 class="title">
+
             <img src="../../public/images/CK-logo.png" alt="Caption King Logo" width="60" height="62">
             <a href="/">Caption King</a>
         </h1>
@@ -20,7 +22,9 @@
             {{#if loggedIn}}
             <ul>
                 <li class="hover">
+
                     <a href="">My Captions</a>
+
                 </li>
                 <li class="hover">
                     <a id="logout" href="">Logout</a>
@@ -29,7 +33,7 @@
             {{else}}
             <ul>
                 <li class="hover">
-                    <a href="/login-register">Login/Register</a>
+                    <a href="/login">Login/Register</a>
                 </li>
             </ul>
             {{/if}}
