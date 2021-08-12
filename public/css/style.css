@@ -192,14 +192,14 @@ main form button {
     border-radius: 5px;
     background-color: var(--tertiary-color);
     font-weight: bold;
+}
 
-
-main figure {
+main figure{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin:10px;
 }
 
 main figure strong {
