@@ -32,6 +32,7 @@ header {
     border-bottom: 5px solid;
     background-image: url('../images/purple-bg.png');
     background-size:20rem;
+    width: 100%;
 }
 
 header img {
@@ -85,6 +86,15 @@ header nav ul li a:hover {
     transition: 0.25s ;
 }
 
+header nav ul li a:active {
+    background: rgba(245, 221, 3, 0.664);
+    color: var(--text-color);
+    border-radius: 15px;
+    text-shadow: none;
+    font-weight: bold;
+    transition: 0.25s ;
+}
+
 article {
     background-image: url('../images/purple-bg.png');
     background-size: 20rem;
@@ -96,6 +106,7 @@ article {
     color:var(--tertiary-color);
     text-shadow: 0 0 10px var(--text-color);
     border-bottom: 2.5px solid var(--text-color);
+    width: 100%;
 }
 
 article section {
@@ -215,6 +226,8 @@ main figure strong {
 
 main figure img {
     border-radius: 100px;
+    width: 600px;
+    height: 400px;
 }
 
 main figure figcaption {
@@ -228,17 +241,22 @@ main figure figcaption {
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
 }
 
 main figure figcaption p {
     padding:5px 10px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
     margin: 5px;
     line-height:1.5rem;
 }
 
 main figure label {
-    width: 50%;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -260,7 +278,7 @@ main figure label textarea {
     background-color: inherit;
     border: none;
     margin-bottom: 10px;
-    width: 600px;
+    width: 450px;
     height: 75px;
     resize: none;
 }
@@ -283,6 +301,7 @@ main figure form a, main figure form button {
     text-decoration: none;
 }
 
+
 footer {
     background-image: url('../images/purple-bg.png');
     padding: 0;
@@ -299,3 +318,5 @@ footer p {
     font-weight: bold;
     text-shadow: 0 0 10px var(--text-color);
 }
+
+/* media queries */
