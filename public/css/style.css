@@ -18,6 +18,8 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
     background-color: var(--primary-color);
+    height:auto;
+    width: auto;
 }
 
 header {
@@ -132,7 +134,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-bottom: 5px solid;
+    align-items: center;
 }
 
 main h2 {
@@ -224,7 +226,7 @@ main figure figcaption {
     padding: 5px;
     color: white;
     width: 1000px;
-    height: 200px;
+    height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
@@ -289,6 +291,8 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     background-size: 20rem;
+    width: 100%;
+    border-top: 5px solid;
 }
 
 footer p {
@@ -298,3 +302,40 @@ footer p {
     font-weight: bold;
     text-shadow: 0 0 10px var(--text-color);
 }
+
+/* media queries */
+@media screen and (min-width: 320px) {
+    header {
+        justify-content: center;
+    }
+    
+    header h1 {
+        justify-content: center;
+    }
+
+    main form {
+        width: 300px;
+    }
+
+    main figure img {
+        width: 280px;
+        height: 180px;
+        border-radius: 30px;
+    }
+
+    main figure figcaption {
+        width: 300px;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    main figure label {
+        width: 240px;
+        padding: 0 10px 5px;
+    }
+
+    main figure form a, main figure form button {
+        width: 60%;
+    }
+}
+

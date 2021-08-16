@@ -28,8 +28,6 @@ https://source.unsplash.com/random/?funny
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -52,8 +50,6 @@ https://source.unsplash.com/random/?funny
     <a href="https://github.com/tbegush/PROJECT2/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -80,8 +76,6 @@ https://source.unsplash.com/random/?funny
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
