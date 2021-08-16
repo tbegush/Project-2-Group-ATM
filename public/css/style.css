@@ -318,6 +318,11 @@ footer p {
         width: 300px;
     }
 
+    .l-form, .r-form {
+        width: 300px;
+        margin: 50px 0;
+    }
+
     main figure img {
         width: 280px;
         height: 180px;
@@ -349,6 +354,11 @@ footer p {
         width: 480px;
     }  
 
+    
+    .l-form, .r-form {
+        width: 450px;
+    }
+
     main figure img {
         width: 460px;
         height: 275px;
@@ -374,6 +384,10 @@ footer p {
 @media screen and (min-width: 768px) {
     main form {
         width: 700px;
+    }
+
+    .l-form, .r-form {
+        width: 480px;
     }
 
     main figure img {
