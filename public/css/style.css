@@ -417,3 +417,44 @@ footer p {
     }
 }
 
+@media screen and (min-width: 1280px) {
+    main form {
+        width: 1240px;
+    }
+
+    main figure figcaption {
+        width: 1000px;
+        height: 300px;
+    }
+    
+    main figure label {
+        padding: 5px 100px 15px;
+        width: 100%;
+    }
+
+    main figure label textarea {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (min-width: 1445px) {
+    main figure figcaption {
+        margin: 0 0 0 25px;
+        width: 800px;
+        height: 350px;
+    }
+
+    main form {
+        width: 1400px;
+    }
+    
+    main figure label {
+        width: 100%;
+        margin: 2.5rem 25rem 1rem;
+        padding: 5px 150px 15px;
+    }
+
+    main figure label textarea {
+        width: 800px;
+    }
+}
