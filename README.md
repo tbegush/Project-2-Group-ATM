@@ -13,7 +13,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 - [Description](#description)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
@@ -26,9 +26,11 @@
 ## Description
 
 Caption King is a website for captioning funny pictures!
-## Screenshot
+## Screenshots
 
-![A website for captioning funny pictures!](/PROJECT2-screenshot.png)
+![Desktop App](./public/images/captionking-desk.png)
+![Mobile App](./public/images/captionking-mobile.png)
+![Login Page](./public/images/captionking-login.png)
 
 ### Built-With
 
