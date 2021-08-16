@@ -28,8 +28,6 @@ https://source.unsplash.com/random/?funny
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -52,8 +50,6 @@ https://source.unsplash.com/random/?funny
     <a href="https://github.com/tbegush/PROJECT2/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -81,21 +77,16 @@ https://source.unsplash.com/random/?funny
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 ![A website for captioning funny pictures!](/PROJECT2-screenshot.png)
-
 
 ### Built With
 
 * [Express.js]()
 * [Javascript]()
 * [HTML]()
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -121,8 +112,6 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -130,14 +119,10 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/tbegush/PROJECT2/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -161,9 +146,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 Thomas Begush - [@tbegush](https://twitter.com/tbegush) - tbegush@gmail.com - 
 
 Project Link: [https://github.com/tbegush/PROJECT2](https://github.com/tbegush/PROJECT2)
-
-
-
+git 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
