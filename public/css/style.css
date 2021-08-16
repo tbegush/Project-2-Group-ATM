@@ -194,7 +194,7 @@ main form button {
     border-radius: 5px;
     background-color: var(--tertiary-color);
     font-weight: bold;
-}
+
 
 main figure {
     display:flex;
@@ -234,6 +234,7 @@ main figure figcaption {
 
 main figure figcaption p {
     padding:5px 10px;
+
     margin: 5px;
     line-height:1.5rem;
 }
