@@ -18,6 +18,8 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
     background-color: var(--primary-color);
+    height:auto;
+    width: auto;
 }
 
 header {
@@ -143,7 +145,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-bottom: 5px solid;
+    align-items: center;
 }
 
 main h2 {
@@ -205,6 +207,7 @@ main form button {
     font-weight: bold;
 }
 
+
 main figure{
     display:flex;
     flex-wrap: wrap;
@@ -237,7 +240,7 @@ main figure figcaption {
     padding: 5px;
     color: white;
     width: 1000px;
-    height: 200px;
+    height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
@@ -309,6 +312,8 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     background-size: 20rem;
+    width: 100%;
+    border-top: 5px solid;
 }
 
 footer p {
@@ -320,3 +325,170 @@ footer p {
 }
 
 /* media queries */
+@media screen and (min-width: 320px) {
+    header {
+        justify-content: center;
+    }
+    
+    header h1 {
+        justify-content: center;
+    }
+
+    main form {
+        width: 300px;
+    }
+
+    .l-form, .r-form {
+        width: 300px;
+        margin: 50px 0;
+    }
+
+    main figure img {
+        width: 280px;
+        height: 180px;
+        border-radius: 30px;
+    }
+
+    main figure figcaption {
+        width: 300px;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    main figure label {
+        width: 240px;
+        padding: 0 10px 5px;
+    }
+
+    main figure form a, main figure form button {
+        width: 60%;
+    }
+} 
+
+@media screen and (min-width: 500px) {
+    header {
+        justify-content: space-between;
+    }
+    
+    main form {
+        width: 480px;
+    }  
+
+    .l-form, .r-form {
+        width: 450px;
+    }
+
+    main figure img {
+        width: 460px;
+        height: 275px;
+        border-radius: 100px;
+    }
+
+    main figure figcaption {
+        width: 480px;
+        height: 220px;
+        font-size: 18px;
+    }
+
+    main figure label {
+        width: 360px;
+        padding: 0 10px 5px;
+    }
+
+    main figure form a, main figure form button {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main form {
+        width: 700px;
+    }
+
+    .l-form, .r-form {
+        width: 480px;
+    }
+
+    main figure img {
+        width: 600px;
+        height: 400px;
+    }
+
+    main figure figcaption {
+        width: 725px;
+        height: 200px;
+        font-size: 20px;
+    }
+
+    main figure label {
+        width: 500px;
+        padding: 0 25px 10px;
+    }
+
+    main figure form a, main figure form button {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main form {
+        width: 875px;
+    }
+
+    main figure figcaption {
+        width: 850px;
+        margin: 30px 0 0;
+    }
+
+    main figure label {
+        width: 650px;
+        padding: 5px 25px;
+    }
+
+    main figure form a, main figure form button {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main form {
+        width: 1240px;
+    }
+
+    main figure figcaption {
+        width: 1000px;
+        height: 300px;
+    }
+    
+    main figure label {
+        padding: 5px 100px 15px;
+        width: 100%;
+    }
+
+    main figure label textarea {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (min-width: 1445px) {
+    main figure figcaption {
+        margin: 0 0 0 25px;
+        width: 800px;
+        height: 350px;
+    }
+
+    main form {
+        width: 1400px;
+    }
+    
+    main figure label {
+        width: 100%;
+        margin: 2.5rem 25rem 1rem;
+        padding: 5px 150px 15px;
+    }
+
+    main figure label textarea {
+        width: 800px;
+    }
+}
+

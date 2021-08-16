@@ -1,114 +1,57 @@
-https://source.unsplash.com/random/?funny
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-*** Forked from othneildrew/Best-README-Template
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
-*** tbegush, PROJECT2, @tbegush, tbegush@gmail.com, PROJECT2, A search for github repositories!
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/tbegush/PROJECT2">
-    <img src="./CK-logo.png" alt="Logo" width="363" height=auto>
+    <img src="./public/images/CK-logo.png" alt="Logo" width="363" height=auto>
   </a>
 
   <h3 align="center">Caption King</h3>
 
   <p align="center">
-   A website for generating funny captions.
-    <br />
-    <a href="https://github.com/tbegush/PROJECT2"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/tbegush/PROJECT2">View Demo</a>
-    ·
-    <a href="https://github.com/tbegush/PROJECT2/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/tbegush/PROJECT2/issues">Request Feature</a>
-  </p>
+ Maybe you can become the next "Caption King"!
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+## Table of Contents
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+- [Authors](#authors)
 
+## Description
 
+Caption King is a website for captioning funny pictures!
+## Screenshots
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+![Desktop App](./public/images/captionking-desk.png)
+![Mobile App](./public/images/captionking-mobile.png)
+![Login Page](./public/images/captionking-login.png)
 
-![A website for captioning funny pictures!](/PROJECT2-screenshot.png)
+### Built-With
 
-
-### Built With
-
-* [Express.js]()
-* [Javascript]()
-* [HTML]()
-
-
+<p>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+<a href="https://expressjs.com/" target="blank"><img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+<a href="https://nodejs.org/en/docs/" target="blank"><img alt="Node.js" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
+<a href="https://dev.mysql.com/doc/" target="blank"><img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+<a href="https://handlebarsjs.com/guide/#what-is-handlebars" target="blank"><img alt="Handlebars" src="https://img.shields.io/badge/Handlebars-%23323330.svg?style=for-the-badge&logo=Handlebars&logoColor=Red"/>
+<a href="https://www.figma.com/" target="_blank"><img alt="Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
+<a href="https://code.visualstudio.com/" target="_blank"><img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+<a href="https://git-scm.com/" target="_blank"><img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+<a href="https://github.com/" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://www.heroku.com/about" target="blank"><img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
+</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting-Started
 
 To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -120,24 +63,6 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/tbegush/PROJECT2/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -155,33 +80,22 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
-<!-- CONTACT -->
 ## Contact
 
 Thomas Begush - [@tbegush](https://twitter.com/tbegush) - tbegush@gmail.com - 
 
 Project Link: [https://github.com/tbegush/PROJECT2](https://github.com/tbegush/PROJECT2)
-
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 * [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* []()
-* []()
+* [https://source.unsplash.com/random/?funny](https://source.unsplash.com/random/?funny)
+* Used Module 14 UofA Coding Bootcamp code for reference
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/tbegush/PROJECT2.svg?style=for-the-badge
-[contributors-url]: https://github.com/tbegush/PROJECT2/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tbegush/PROJECT2.svg?style=for-the-badge
-[forks-url]: https://github.com/tbegush/PROJECT2/network/members
-[stars-shield]: https://img.shields.io/github/stars/tbegush/PROJECT2.svg?style=for-the-badge
-[stars-url]: https://github.com/tbegush/PROJECT2/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tbegush/PROJECT2.svg?style=for-the-badge
-[issues-url]: https://github.com/tbegush/PROJECT2/issues
-[license-shield]: https://img.shields.io/github/license/tbegush/PROJECT2.svg?style=for-the-badge
-[license-url]: https://raw.githubusercontent.com/tbegush/PROJECT2/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/tbegush
+## Authors
+
+Alec Stewart - Thomas Begush-Cook - Marco Avila
+
+&copy; 2021 ATM
+
+
