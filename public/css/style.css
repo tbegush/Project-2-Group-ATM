@@ -194,7 +194,7 @@ main form button {
     border-radius: 5px;
     background-color: var(--tertiary-color);
     font-weight: bold;
-
+}
 
 main figure {
     display:flex;
@@ -338,5 +338,38 @@ footer p {
     main figure form a, main figure form button {
         width: 60%;
     }
+} 
+
+@media screen and (min-width: 500px) {
+    header {
+        justify-content: space-between;
+    }
+    
+    main form {
+        width: 480px;
+    }  
+
+    main figure img {
+        width: 460px;
+        height: 275px;
+        border-radius: 100px;
+    }
+
+    main figure figcaption {
+        width: 480px;
+        height: 220px;
+        font-size: 18px;
+    }
+
+    main figure label {
+        width: 360px;
+        padding: 0 10px 5px;
+    }
+
+    main figure form a, main figure form button {
+        width: 40%;
+    }
 }
+
+
 
