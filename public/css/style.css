@@ -371,5 +371,29 @@ footer p {
     }
 }
 
+@media screen and (min-width: 768px) {
+    main form {
+        width: 700px;
+    }
 
+    main figure img {
+        width: 600px;
+        height: 400px;
+    }
+
+    main figure figcaption {
+        width: 725px;
+        height: 200px;
+        font-size: 20px;
+    }
+
+    main figure label {
+        width: 500px;
+        padding: 0 25px 10px;
+    }
+
+    main figure form a, main figure form button {
+        width: 25%;
+    }
+}
 
